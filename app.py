@@ -1,3 +1,9 @@
+import streamlit as st
+
+# Title
+st.title("BMI Calculator")
+
+# Inputs
 weight = st.number_input("Enter your weight (kg):", min_value=0.0, format="%.2f")
 height = st.number_input("Enter your height (meters):", min_value=0.0, format="%.2f")
 
