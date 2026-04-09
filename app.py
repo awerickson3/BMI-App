@@ -18,5 +18,3 @@ if st.button("Calculate BMI"):
             st.error("Category: Obese")
     else:
         st.error("Height must be greater than 0")
-pip install streamlit
-streamlit run app.py
